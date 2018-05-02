@@ -1,0 +1,10 @@
+D:\c#\card_games\cardgames\cardgames\bin\Debug\cardgames.exe.config
+D:\c#\card_games\cardgames\cardgames\bin\Debug\cardgames.exe
+D:\c#\card_games\cardgames\cardgames\bin\Debug\cardgames.pdb
+D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.Form1.resources
+D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.Properties.Resources.resources
+D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.csproj.GenerateResource.Cache
+D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.csproj.CoreCompileInputs.cache
+D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.exe
+D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.pdb
+D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.csprojResolveAssemblyReference.cache

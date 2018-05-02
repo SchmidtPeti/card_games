@@ -51,8 +51,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="kartyak.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -74,6 +79,162 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2825%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2826%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2827%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2828%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2829%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2830%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2831%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2832%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2833%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2834%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2835%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2836%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2837%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2838%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2839%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2840%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2841%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2842%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2843%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2844%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2845%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2846%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2847%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2848%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2849%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2850%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2851%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kep %2852%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

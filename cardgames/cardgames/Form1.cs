@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Resources;
+using System.IO;
+using cardgames.Properties;
 
 namespace cardgames
 {
@@ -15,6 +18,8 @@ namespace cardgames
         public Form1()
         {
             InitializeComponent();
+            pictureBox1.Image = Resources.kep__1_;
+            pictureBox1.Height = 
         }
     }
 }
