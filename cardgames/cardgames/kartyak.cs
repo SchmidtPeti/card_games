@@ -14,6 +14,8 @@ namespace cardgames
         List<int> volt_index;
         public int player_one;
         public int player_two;
+        public int szor = 1;
+        public int szor_two = 1;
         public int done_palyer;
         public kartyak()
         {
@@ -61,6 +63,10 @@ namespace cardgames
         public void new_Game()
         {
             volt_index.Clear();
+            player_one = 0;
+            player_two = 0;
+            szor = 0;
+            szor_two = 0;
         }
     }
 }
