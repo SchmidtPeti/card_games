@@ -14,6 +14,7 @@ namespace cardgames
         List<int> volt_index;
         public int player_one;
         public int player_two;
+        public int done_palyer;
         public kartyak()
         {
             random = new Random();
