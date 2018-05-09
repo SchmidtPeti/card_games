@@ -63,10 +63,11 @@ namespace cardgames
         public void new_Game()
         {
             volt_index.Clear();
+            done_palyer = 0;
             player_one = 0;
             player_two = 0;
-            szor = 0;
-            szor_two = 0;
+            szor = 1;
+            szor_two = 1;
         }
     }
 }

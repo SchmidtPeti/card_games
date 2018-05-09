@@ -8,3 +8,4 @@ D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.csproj.CoreCompileInput
 D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.exe
 D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.pdb
 D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.csprojResolveAssemblyReference.cache
+D:\c#\card_games\cardgames\cardgames\obj\Debug\cardgames.botmode.resources

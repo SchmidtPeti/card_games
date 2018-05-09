@@ -16,6 +16,7 @@ namespace cardgames
     public partial class Form1 : Form
     {
         kartyak kartyak;
+        List<PictureBox> add_boxes;
         public Form1()
         {
             InitializeComponent();
@@ -23,16 +24,17 @@ namespace cardgames
             //Marking picture which are static value
             pictureBox1.Name = "marked";
             pictureBox2.Name = "marked";
+            add_boxes = new List<PictureBox>();
         }
         private void button1_Click(object sender, EventArgs e)
         {
             more_card(pictureBox1, ref kartyak.player_one, ref kartyak.szor, label1);
-            check_number(kartyak.player_one, button1);
+            check_number(kartyak.player_one, button1,button3);
         }
         private void button2_Click(object sender, EventArgs e)
         {
             more_card(pictureBox2,ref kartyak.player_two,ref kartyak.szor_two, label2);
-            check_number(kartyak.player_two, button2);
+            check_number(kartyak.player_two, button2,button4);
         }
         private void more_card(PictureBox pictureBox_,ref int player,ref int szor,Label label)
         {
@@ -54,14 +56,16 @@ namespace cardgames
                 pictureBox.Top -= 50 * szor;
                 szor++;
                 this.Controls.Add(pictureBox);
+                add_boxes.Add(pictureBox);
             }
             label.Text = player.ToString();
         }
-        private void check_number(int number,Button kerek)
+        private void check_number(int number,Button kerek,Button done)
         {
             if (number >= 21)
             {
                 kerek.Enabled = false;
+                done.Enabled = false;
                 kartyak.done_palyer++;
             }
             check_done_player();
@@ -116,17 +120,9 @@ namespace cardgames
             button4.Enabled = true;
             pictureBox1.Image = null;
             pictureBox2.Image = null;
-            MessageBox.Show(this.Controls.Count.ToString());
-            for (int i = 0; i < this.Controls.Count; i++)
+            for (int i = 0; i < add_boxes.Count; i++)
             {
-                if(this.Controls[i] is PictureBox)
-                {
-                    /*if (this.Controls[i].Name != "marked")
-                    {*/
-                        this.Controls.Remove(this.Controls[i]);
-                        
-                    //}
-                }
+                this.Controls.Remove(add_boxes[i]);
                 System.Threading.Thread.Sleep(50);
             }
         }
@@ -134,6 +130,13 @@ namespace cardgames
         {
             kartyak.new_Game();
             clear_form_object();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            botmode botmode = new botmode();
+            botmode.Show();
+            this.Hide();
         }
     }
 }
